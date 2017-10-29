@@ -30,12 +30,11 @@ header{
 }
 
 header div{
-    /*outline: 1px solid #fff;*/ 
     position: absolute;
-    left: 1057px;
-    top: 44px;
-    bottom: 47px;
-    right: auto;
+    float: right;
+    bottom: 45px;
+    top: auto;
+    right: 250px;
 }
 
 header div a{
@@ -53,7 +52,6 @@ header a{
     text-decoration: none;
     color: #fff;
     margin-top: 12px;
-    position: relative;
     padding: 0px;
     text-shadow: #fff 0.5px 0.5px 0px;
     font-weight: 700;
@@ -61,13 +59,14 @@ header a{
 
 /*estableciendo un tamaño especifico*/
 header h1{
-    position: relative;
-    bottom: 3px;
-    right: auto;
     font-size: 32px;
-    left:227px;
-    width: 230%;
+    width: 49%;
+    text-align:center;
+    margin-top: 25px;
+    margin-bottom: auto;
+    font-weight: 800;
 }
+
 
 /*style section*/
 section{
@@ -78,7 +77,7 @@ section{
 }
 
 figure{
-    outline: 1px solid green;
+    /*outline: 1px solid green;*/
 }
 
 .section-start{
@@ -86,15 +85,25 @@ figure{
     margin-bottom: 170px;
 }
 
-img[alt="profile"]{
+.section-start figure img{
+    margin-top: 92px;
+    margin-bottom: 30px;
+}
+
+/*img[alt="profile"]{
     margin-top: 92px;
     margin-bottom: 56px;
-}
+}*/
 
-.section-star div h1{
+.section-start div h1{
+    font-size: 78px;
     margin-bottom: 55px;
+    font-family: 'Montserrat', sans-serif;  
 }
 
+.section-start div p{
+    font-size: 24px;
+}
 /*style footer*/
 
 footer{
