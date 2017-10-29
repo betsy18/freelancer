@@ -73,11 +73,32 @@ header h1{
 section{
     position: relative;
     text-align: center;
+    width: 100%;
+    
 }
 
-footer{
-    position: absolute;
-    text-align: center;
+figure{
+    outline: 1px solid green;
+}
+
+.section-start{
+    top: 109px;
+    margin-bottom: 170px;
+}
+
+img[alt="profile"]{
+    margin-top: 92px;
+    margin-bottom: 56px;
+}
+
+.section-star div h1{
+    margin-bottom: 55px;
 }
 
 /*style footer*/
+
+footer{
+    position: relative;
+    text-align: center;
+
+}
