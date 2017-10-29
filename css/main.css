@@ -68,7 +68,7 @@ header h1{
 }
 
 
-/*style section*/
+/*style section-start*/
 section{
     position: relative;
     text-align: center;
@@ -83,6 +83,8 @@ figure{
 .section-start{
     top: 109px;
     margin-bottom: 170px;
+    background-color: #18bc9c;
+    color: #fff;
 }
 
 .section-start figure img{
@@ -102,8 +104,18 @@ figure{
 }
 
 .section-start div p{
-    font-size: 24px;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
 }
+
+.section-portfolio figure{
+    outline: 1px solid purple;
+    width: 30%;
+    display: inline-block;
+    
+}
+
+
 /*style footer*/
 
 footer{
