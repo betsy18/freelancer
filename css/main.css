@@ -131,6 +131,8 @@ hr i:after{
     display: inline-block;
 }
 
+
+/*hover para las imágenes*/
 .section-portfolio figure img:hover{
     filter: sepia(60%);
     -webkit-transform: rotateY(180deg);
@@ -239,6 +241,7 @@ hr i:after{
     text-align: left;
 }
 
+/*Agrandando la caja de texto*/
 #textarea{
     height: 200px;
 }
@@ -264,7 +267,6 @@ hr i:after{
 
 footer{
     position: relative;
-    
     background-color: #2c3e50;
     color: #fff;
 }
