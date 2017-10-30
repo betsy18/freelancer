@@ -82,7 +82,7 @@ i{
 /*style section-start*/
 section  hr{
     position: relative;
-    width: 30%;
+    width: 20%;
     height: 5px;
     border: none;
     background-color: #2c3e50; 
@@ -143,17 +143,17 @@ section  hr{
 .section-about{
     background-color: #18bc9c;
     color: #fff;
+    
 }
 
 .section-about h1{
     font-size: 48px;
-    margin-top: 112px;
     margin-bottom: 55px;
     font-family: 'Montserrat', sans-serif;  
+    padding-top: 90px;
 }
 
 .general{
-    outline: 1px solid green;
     position: relative;
     width: 47%;
     margin-right: auto;
@@ -181,7 +181,7 @@ section  hr{
     border: 2px solid #fff;
     font-size: 18px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 90px;
 }
 
