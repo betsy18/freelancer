@@ -147,6 +147,7 @@ hr::after{
 }
 
 /*section-portfolio*/
+
 .section-portfolio{
     padding: 30px;
 }
@@ -162,8 +163,11 @@ hr::after{
 .section-portfolio figure{
     display: inline-block;
     position: relative;
-    width: 30%;
-    margin: 0px 20px;
+    width: 25%;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
 
 /*hover para las imágenes*/
@@ -171,7 +175,7 @@ hr::after{
     filter: sepia(60%);
     box-shadow: 21px 21px 50px #999;
     border-radius: 15px;
-    cursor: pointer;   
+    cursor: pointer; 
 }
 
 .section-portfolio figure i{
@@ -317,6 +321,7 @@ hr::after{
     border-right: none;
     border-left: none;
     border-bottom-color: 1px solid #eee;
+    resize: none;
 }
 
 .section-contact button{
@@ -330,11 +335,9 @@ hr::after{
     font-family: 'Lato';
     position: relative;
     top: 190px;
-    right: 300px;
+    right: 690px;
     font-weight: 700;
 }
-
-
 
 /*style footer*/
 
@@ -391,6 +394,7 @@ footer i{
 #text-2 i:hover{
     background-color: #fff;
     color: #18bc9c;
+    transition-duration: 0.5s;
 }
 
 #text-3{
