@@ -155,7 +155,7 @@ section  hr{
 .general{
     outline: 1px solid green;
     position: relative;
-    width: 43%;
+    width: 47%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -202,8 +202,13 @@ section  hr{
     font-family: 'Montserrat', sans-serif;  
 }
 
-.section-contact form{
-    
+.section-contact input{
+    width: 70%;
+    display: block;
+    position: relative;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-contact button{
@@ -225,7 +230,7 @@ section  hr{
 
 footer{
     position: relative;
-    text-align: center;
+    
     background-color: #2c3e50;
     color: #fff;
 }
@@ -237,13 +242,18 @@ footer h1{
 }
 
 .footer-text {
-    outline: 1px solid red;
     display: inline-block;
-    margin: 40px;
-    max-width: 25%;
+    margin: 30px;
+    max-width: 24%;
     position: relative;
+    text-align: center;
+    left: 20px;
 }
 
+.container{
+    text-align: center;
+    margin-bottom: 100px;
+}
 
 footer p{
     font-size: 18px;
@@ -260,5 +270,29 @@ footer i{
 }
 
 #text-1{
-    top: 20px;
+    top: auto;
+    bottom: 21px;
+}
+
+#text-2{
+    top: auto;
+    bottom: 28px;
+}
+
+#text-3{
+    top: 2px;
+    bottom: auto;
+    left: 20px;
+}
+
+#text-3 a{
+    cursor: pointer;
+    color :#18bc9c;
+}
+
+
+#text-4{
+    padding: 25px;
+    font-family: 'Lato', sans-serif;  
+    text-align: center;
 }
