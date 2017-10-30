@@ -68,14 +68,18 @@ header h1{
 }
 
 
-/*style section-start*/
+
 section{
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 100%; 
+}
+
+i{
     
 }
 
+/*style section-start*/
 section  hr{
     position: relative;
     width: 30%;
@@ -174,7 +178,18 @@ figure{
     border: 2px solid #fff;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 110px;
 }
+
+/*section-contact*/
+.section-contact h1{
+    font-size: 48px;
+    margin-bottom: 36px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
 
 /*style footer*/
 
