@@ -165,13 +165,15 @@ figure{
     text-align: center;
 }
 
-button{
+.section-about button{
     width: 207px;
     height: 46px;
     background-color: #18bc9c;
     color: #fff;
     border-radius: 5px;
     border: 2px solid #fff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 /*style footer*/
