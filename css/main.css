@@ -152,7 +152,7 @@ section  hr{
     font-family: 'Montserrat', sans-serif;  
 }
 
-.column-1{
+/*.column-1{
     position: relative;
     outline: 1px solid green;
     width: 300px;
@@ -165,17 +165,33 @@ section  hr{
     width: 600px;
     left: 480px;
     position: relative;
-    float: right;*/
-}
+    float: right;
+    width: 25%;
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: 289px;
+    margin-left:800px;
+    
+}*/
 
+.general{
+    outline: 1px solid green;
+    position: relative;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    column-count: 2;
+}
 
 .section-about p {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5;
     text-align: left;
+    font-family: sans-serif;
+    margin-right: 10px;
 }
-
-
 
 .section-about button{
     width: 207px;
@@ -214,7 +230,7 @@ section  hr{
     border-radius: 5px;
     border: 2px solid #fff;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     position: relative;
     top: 110px;
 }
