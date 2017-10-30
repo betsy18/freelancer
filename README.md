@@ -19,9 +19,11 @@ Replicar la pag. de Bootstrap
         images: carpeta donde se encuentran las imagenes utilizadas.
 * docs: imagen previa del resultado
 * html: para la estructura del contenido.
+
+        index.html: vista principal de la página
 * css: para darle estilo al contenido.
      
-          main.cc: hoja de estilos
+          main.css: hoja de estilos
 * js: lenguaje para hacer dinámica la pag.
 
 
@@ -37,3 +39,4 @@ Replicar la pag. de Bootstrap
 * hr: línea divisoria horizontal.
 * footer: contenedor para el pie de página.
 * p: etiquetas de párrafo.
+* fontAwesome: cdn, se genera un link para poder utilizar iconos desde otra pagina
