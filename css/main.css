@@ -91,6 +91,11 @@ section  hr{
     margin-right: auto;
 }
 
+hr i:after{
+    content: "";
+    color: #2c3e50;
+}
+
 .section-start{
     top: 107px;
     margin-bottom: 170px;
