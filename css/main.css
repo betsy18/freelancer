@@ -157,17 +157,21 @@ figure{
     font-family: 'Montserrat', sans-serif;  
 }
 
-.colum-1 {
-    font-size: 24px;
-    column-count: 2;
-    text-align: center;
+.column{
+    outline: 1px solid green;
+    column-count: 2
 }
 
-.colum-2 {
-    font-size: 24px;
-    column-count: 2;
-    text-align: center;
+.section-about p {
+    font-size: 15px;
+    font-size: 1.5rem;    
+    line-height: 1.333333334;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    text-align: left;
 }
+
+
 
 .section-about button{
     width: 207px;
@@ -183,12 +187,33 @@ figure{
 }
 
 /*section-contact*/
+.section-contact{
+    top: 112px;
+    margin-bottom: 500px;
+}
+
 .section-contact h1{
     font-size: 48px;
     margin-bottom: 36px;
     font-family: 'Montserrat', sans-serif;  
 }
 
+.section-contact form{
+    
+}
+
+.section-contact button{
+    width: 78px;
+    height: 21px;
+    background-color: #18bc9c;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 110px;
+}
 
 
 /*style footer*/
@@ -196,5 +221,4 @@ figure{
 footer{
     position: relative;
     text-align: center;
-
 }
