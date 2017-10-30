@@ -302,6 +302,11 @@ footer i{
     bottom: 28px;
 }
 
+#text-2 i:hover{
+    background-color: #fff;
+    color: #18bc9c;
+}
+
 #text-3{
     top: 2px;
     bottom: auto;
@@ -313,10 +318,14 @@ footer i{
     color :#18bc9c;
 }
 
+#text-3 i:hover{
+    text-decoration-line: border 1px color #18bc9c;
+}
 
 #text-4{
     padding: 25px;
     font-family: 'Lato', sans-serif;  
     text-align: center;
 }
+
 
