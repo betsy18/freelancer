@@ -147,11 +147,23 @@ hr::after{
 }
 
 /*section-portfolio*/
-.section-portfolio figure{
-    width: 350px;
-    height: 256px;
-    margin: 30px;
+.section-portfolio{
+    padding: 30px;
+}
+
+.section-portfolio div{
+    position: relative;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
+}
+
+.section-portfolio figure{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin: 0px 20px;
 }
 
 /*hover para las imágenes*/
@@ -164,6 +176,7 @@ hr::after{
 
 .section-portfolio figure i{
     visibility: hidden;
+
 }
 
 /*Intentando hacer el hover de lupa*/
@@ -184,7 +197,9 @@ hr::after{
 
 
 .section-portfolio img{
+    position: relative;
     max-width: 100%;
+    display: inline-block;
 }
 
 .section-portfolio h1{
@@ -289,15 +304,19 @@ hr::after{
 /*Agrandando la caja de texto*/
 #textarea{
     position: relative;
-    left: 60px;
+    top: 35px;
+    left: 94px;
     height: 200px;
     width: 50%;
     text-decoration: none;
     outline: none;
     font-family: 'Lato';
     font-size: 24px;
-    text-align: left;
     color: #2c3e50;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: 1px solid #eee;
 }
 
 .section-contact button{
