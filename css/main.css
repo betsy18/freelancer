@@ -85,15 +85,40 @@ section  hr{
     width: 20%;
     height: 5px;
     border: none;
-    background-color: #2c3e50; 
     margin: 0px;
     margin-left: auto;
     margin-right: auto;
+    overflow: visible;
+    box-sizing: content-box;
 }
 
-hr i:after{
-    content: "";
+#hr-white{
+    background-color: #fff;
+}
+
+#hr-gray{
+    background-color: #2c3e50; 
+}
+
+hr::after{
+    font-family: FontAwesome;
+    font-size: 2.3em;
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    bottom: 24px;
+    padding: 6px;
+    
+}
+
+#hr-white::after{
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+#hr-gray::after{
     color: #2c3e50;
+    background-color: #fff;
 }
 
 .section-start{
@@ -199,10 +224,10 @@ hr i:after{
 }
 
 .section-about p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Lato', sans-serif; 
     margin-right: 10px;
     font-weight: 400;
 }
@@ -214,7 +239,7 @@ hr i:after{
     color: #fff;
     border-radius: 5px;
     border: 2px solid #fff;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
     margin-top: 30px;
     margin-bottom: 90px;
@@ -227,7 +252,7 @@ hr i:after{
 }
 
 .section-about span{
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Lato', sans-serif;
 }
 
 /*section-contact*/
