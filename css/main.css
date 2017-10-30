@@ -281,7 +281,10 @@ hr::after{
     border-bottom-color: 1px solid #eee;
     padding: 50px;
     text-align: left;
+    color: #2c3e50;
+    outline: none;
 }
+
 
 /*Agrandando la caja de texto*/
 #textarea{
