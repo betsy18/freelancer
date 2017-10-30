@@ -152,29 +152,6 @@ section  hr{
     font-family: 'Montserrat', sans-serif;  
 }
 
-/*.column-1{
-    position: relative;
-    outline: 1px solid green;
-    width: 300px;
-    margin-left: 450px;
-}
-
-.column-2{
-    outline: 1px solid green;
-   /* text-align: center;
-    width: 600px;
-    left: 480px;
-    position: relative;
-    float: right;
-    width: 25%;
-    position: relative;
-    left: auto;
-    right: auto;
-    bottom: 289px;
-    margin-left:800px;
-    
-}*/
-
 .general{
     outline: 1px solid green;
     position: relative;
@@ -190,7 +167,7 @@ section  hr{
     font-size: 18px;
     line-height: 1.5;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;  
     margin-right: 10px;
     font-weight: 400;
 }
@@ -202,7 +179,7 @@ section  hr{
     color: #fff;
     border-radius: 5px;
     border: 2px solid #fff;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
     margin-top: 100px;
     margin-bottom: 90px;
@@ -210,8 +187,7 @@ section  hr{
 }
 
 .section-about span{
-    font-family: 'Montserrat';
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;  
 }
 
 /*section-contact*/
@@ -263,13 +239,14 @@ footer h1{
 .footer-text {
     outline: 1px solid red;
     display: inline-block;
-    margin: 30px;
+    margin: 40px;
     max-width: 25%;
+    position: relative;
 }
 
 
 footer p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;  
 }
 
@@ -282,6 +259,6 @@ footer i{
     padding: 15px;
 }
 
-#dribble{
-    content: 16px 16px;
+#text-1{
+    top: 20px;
 }
