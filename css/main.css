@@ -183,8 +183,9 @@ section  hr{
     position: relative;
     margin-top: 100px;
     margin-bottom: 90px;
-
 }
+
+
 
 .section-about span{
     font-family: 'Montserrat', sans-serif;  
@@ -203,12 +204,24 @@ section  hr{
 }
 
 .section-contact input{
-    width: 70%;
+    width: 50%;
     display: block;
     position: relative;
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Lato';
+    font-size: 24px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: 1px solid #eee;
+    padding: 50px;
+    text-align: left;
+}
+
+#textarea{
+    height: 200px;
 }
 
 .section-contact button{
@@ -222,6 +235,7 @@ section  hr{
     font-family: 'Lato';
     position: relative;
     top: 110px;
+    right: 300px;
 }
 
 
