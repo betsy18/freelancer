@@ -409,7 +409,8 @@ footer i{
 }
 
 #text-3 p a:hover{
-    text-decoration: 1px color #18bc9c;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 #text-4{
